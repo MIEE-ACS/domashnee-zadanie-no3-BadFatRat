@@ -1,0 +1,21 @@
+﻿<Window x:Name="W1" x:Class="DZ_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DZ_3"
+        mc:Ignorable="d"
+        Title="Проверка знаний арифметики для младшеклассников" Height="300" Width="550" FontSize="16">
+    <Grid x:Name="W2">
+        <Button x:Name="B1" Content="Нажмите меня чтобы начать тест" HorizontalAlignment="Center" Margin="0,102,0,0" VerticalAlignment="Top" Height="50" Width="250" Click="B1_Click" Visibility="Hidden" RenderTransformOrigin="0.497,0.491"/>
+        <Label x:Name="label_4_q" Content="xx + yy = zzz" HorizontalAlignment="Left" Margin="113,50,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <RadioButton x:Name="RB_1" Content="1" HorizontalAlignment="Left" Margin="113,109,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <RadioButton x:Name="RB_2" Content="1" HorizontalAlignment="Left" Margin="187,109,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <RadioButton x:Name="RB_3" Content="1" HorizontalAlignment="Left" Margin="113,142,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <RadioButton x:Name="RB_4" Content="1" HorizontalAlignment="Left" Margin="187,142,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.033,0.421" Visibility="Hidden"/>
+        <Button x:Name="B2" Content="Проверить" HorizontalAlignment="Left" Margin="127,189,0,0" VerticalAlignment="Top" Click="B2_Click" Visibility="Hidden"/>
+        <Label x:Name="right_answer_label" Content="Правильный ответов: 0" HorizontalAlignment="Left" Margin="291,147,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Label x:Name="wrong_answer_label" Content="Неправильных ответов: 0" HorizontalAlignment="Left" Margin="275,183,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
